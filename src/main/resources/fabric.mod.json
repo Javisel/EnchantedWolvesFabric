@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantedwolves",
+	"version": "${version}",
+	"name": "enchantedwolves",
+	"description": "Adds several tiered wolf collars with unique enchantments.",
+	"authors": [
+		"KarnaVT"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/enchanted-wolves",
+		"sources": " "
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/enchantedwolves/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.javisel.EnchantedWolves"
+		],
+		"client": [
+			"com.javisel.EnchantedWolvesClient"
+		],
+		"fabric-datagen": [
+			"com.javisel.EnchantedWolvesDataGenerator"
+		],
+		"mm:early_risers": [
+			"com.javisel.EarlyRiser"
+		]
+	},
+	"mixins": [
+		"enchantedwolves.mixins.json",
+		{
+			"config": "enchantedwolves.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

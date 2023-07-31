@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "enchantedwolves:leather_collar",
+    "enchantedwolves:chainmail_collar",
+    "enchantedwolves:golden_collar",
+    "enchantedwolves:iron_collar",
+    "enchantedwolves:diamond_collar",
+    "enchantedwolves:netherite_collar"
+  ]
+}

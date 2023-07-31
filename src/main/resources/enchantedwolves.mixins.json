@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.javisel.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MobEntityMixin",
+		"LivingEntityMixin",
+		"LootingEnchantLootFunctionMixin",
+		"RandomChanceWithLootingLootConditionMixin",
+		"WolfEntityMixin",
+		"EntityMixin",
+		"EnchantmentMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

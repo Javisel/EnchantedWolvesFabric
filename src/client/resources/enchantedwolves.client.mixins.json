@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.javisel.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"EnchantedWolvesClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
